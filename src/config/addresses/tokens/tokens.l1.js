@@ -11,6 +11,19 @@ export const L1Tokens = [
     }
   },
   {
+    name: 'DAI',
+    symbol: 'DAI',
+    decimals: 18,
+    bridgeAddress: {
+      [ChainType.MAIN.id]: '',
+      [ChainType.GOERLI.id]: '0x05EbC847c9b19B185117E579870338fcB799EeE1'
+    },
+    tokenAddress: {
+      [ChainType.MAIN.id]: '',
+      [ChainType.GOERLI.id]: '0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844'
+    }
+  },
+  {
     name: 'Wrapped BTC',
     symbol: 'WBTC',
     decimals: 8,
